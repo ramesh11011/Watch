@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body{
+    /* background-image: url("/bg.jpg");
+background-size:cover; */
+background-color: #6185f8;
+}
+
+.logo{
+    width: 7rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav p{
+    color: aliceblue;
+}
+
+main{
+    margin: 2vw 38vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+
+}
+
+.input-area{
+    background-color: #954b0c;
+    padding: 1rem 1rem;
+    width: 20rem;
+    height: 5vh;
+    border-radius: 5px;;
+}
+
+.input-area input{
+    width: 20rem;
+    height: 4vh;
+    background-color: transparent;
+    color: rgb(201, 229, 172);
+}
+
+.functions{
+
+    background-color: rgb(184, 236, 169);
+    width: 22rem;
+    height: 22rem;
+    
+}
+
+.function-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.function-2 button{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem 0rem;
+    background-color: #eeaf36;
+    color: #684632;
+    
+}
+
+.function-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.function-3 button{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem 0rem;
+    background-color: #eeaf36;
+    color: #684632;
+}
+
+.function-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.function-4 button{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem 0rem;
+    background-color: #eeaf36;
+    color: #684632;
+}
+
+.function-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.function-5 button{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem 0rem;
+    background-color: #eeaf36;
+    color: #684632;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Themed Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">,
+    <link rel="icon" type="image/png" href="/mario.png">
+
+</head>
+<body>
+
+    <nav>
+        <img src="/mario.png" class="logo">
+        <p>
+            Mario Calculator
+        </p>
+    </nav>
+    <main>
+        <div class="input-area">
+
+            <input type="text" id="display" readonly>
+
+        </div>
+        <div class="functions">
+
+
+            <div class="function-2">
+                <button onclick="appendtoDisplay('7')">7</button>
+                <button onclick="appendtoDisplay('8')">8</button>
+                <button onclick="appendtoDisplay('9')">9</button>
+                <button onclick="appendtoDisplay('*')">×</button>
+            </div>
+            <div class="function-3">
+                <button onclick="appendtoDisplay('4')">4</button>
+                <button onclick="appendtoDisplay('5')">5</button>
+                <button onclick="appendtoDisplay('6')">6</button>
+                <button onclick="appendtoDisplay('-')">-</button>
+            </div>
+
+            <div class="function-4">
+                <button onclick="appendtoDisplay('1')">1</button>
+                <button onclick="appendtoDisplay('2')">2</button>
+                <button onclick="appendtoDisplay('3')">3</button>
+                <button onclick="appendtoDisplay('+')">+</button>
+            </div>
+
+            <div class="function-5">
+                <button onclick="appendtoDisplay('%')">%</button>
+                <button onclick="appendtoDisplay('0')">0</button>
+                <button onclick="calculate('=')">=</button>
+                <button onclick= "clearDisplay()">AC</button>
+            </div>
+        </div>
+    </main> 
+
+    <script src="script.js"></script>
+</body>
+</html>
